@@ -1,0 +1,280 @@
+body {
+    background: #e1f0f8;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: white;
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+}
+header div{
+    vertical-align: bottom;
+}
+#logo{
+    padding:0 25px;
+}
+#logo div{
+    display: inline-block;
+    padding-top: 20px;
+    text-align: justify;
+}
+#logo div:first-child{
+    margin-right: 300px;
+}
+#logo div:last-child{
+    font-size: 20px;
+    text-align: right;
+    position:relative;
+    top:20px;
+    left:150px;
+}
+#logo div:last-child:first-line{
+    font-size: 12px;
+}
+.main_menu li{
+    display: inline-block;
+    width:20%;
+    border-left: 1px solid black;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    margin-right: -5px;
+}
+.main_menu li:first-child{
+    border:none;
+}
+.main_menu a{
+    text-decoration: none;
+    color: black;
+
+}
+.active{
+    background: #7bc3d5;
+    color: white;
+}
+main{
+    width: 1100px;
+    margin: 0 auto;
+}
+h1{
+    margin-bottom:0;
+}
+aside{
+    float: left;
+    width:240px;
+    background: white;
+    border-radius: 5px;
+}
+aside ul{
+    padding: 5px 20px;
+}
+aside li{
+    list-style: none;
+    padding: 5px;
+}
+aside a{
+    color: black;
+}
+aside a:hover{
+    color: red;
+}
+main article{
+    width:800px;
+    float: right;
+    background: white;
+    border-radius: 5px;
+    padding: 25px;
+}
+main>div:first-of-type{
+    float: left;
+    margin: 20px 250px;
+}
+main>div:last-of-type{
+    float: right;
+    margin:20px 0;
+}
+main>div a{
+    color: #eb5825;
+    text-decoration: underline dashed #eb5825;
+}
+#windows figure{
+    float: left;
+    margin-right: 60px;
+}
+#windows figcaption{
+    text-align: center;
+    color:#7bc3d5;
+    font-weight: bold;
+}
+#windows li {
+    list-style-type: none;
+    padding-bottom: 2px;
+}
+#windows li:before {
+    color: red;
+    content: "•";
+    padding-right: 10px;
+}
+#windows legend{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#windows label{
+    width: 65px;
+    height: 60px;
+    content: "";
+    display: inline-block;
+    background: url("../images/colors.png") no-repeat;
+}
+#windows label:nth-of-type(2){
+    background-position: -67px 0;
+}
+#windows label:nth-of-type(3){
+    background-position: -134px 0;
+}
+#windows label:nth-of-type(4){
+    background-position: -201px 0;
+}
+#windows label:nth-of-type(5){
+    background-position: -271px 0;
+}
+#windows label:nth-of-type(6){
+    background-position: -342px 0;
+}
+#windows label:nth-of-type(7){
+    background-position: -413px 0;
+}
+#windows input[type="checkbox"]{
+    visibility: hidden;
+}
+#sale p{
+    display: inline-block;
+    border-right: 1px solid #aeaeae;
+    vertical-align:middle;
+    height:60px;
+}
+#sale p:first-of-type{
+    padding-right:25px;
+}
+#sale p:first-of-type span {
+    text-decoration:underline #eb5825 dashed;
+}
+.orange{
+    color:#eb5825;
+}
+#sale p:first-line{
+    color:#c6c6c6;
+}
+#sale p:first-of-type:first-line{
+    text-decoration: none;
+    color: black;
+}
+#sale p:nth-of-type(2){
+    text-align: center;
+    padding: 0 10px;
+}
+#sale p:last-of-type{
+    border:none;
+    padding-left:5px;
+    text-align: right;
+}
+button{
+    background: #eb5825;
+    padding:10px 40px;
+    border-color:#eb5825;
+    border-radius:5px;
+    color:white;
+    font-size: 14px;
+}
+#windows p a{
+    color:#c6c6c6;
+    margin-top: 15px;
+}
+#lamination{
+    margin-top: 25px;
+}
+#lamination h3{
+    font-weight:normal;
+}
+#lamination div p{
+    margin: 5px 0;
+}
+#lamination div img{
+    float: left;
+    margin-right: 15px;
+}
+#lamination div:first-of-type img{
+    float: left;
+    margin-right: 30px;
+}
+#review li{
+    list-style: none;
+}
+.name{
+    font-weight: bold;
+}
+.contract,.date{
+    color:#c6c6c6;
+}
+.rating{
+    margin-top: 10px;
+}
+.full a{
+    color: #eb5825;
+    text-decoration: underline dashed #eb5825;
+}
+.full{
+    margin-bottom: 25px;
+}
+#galery{
+    margin: 0;
+    padding: 0;
+}
+#galery li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+#galery li:last-of-type{
+    margin-right: 0;
+}
+main::after{
+    display: block;
+    content:"";
+    clear: both;
+}
+footer{
+    background: #a5b7c1;
+    margin: 0;
+    margin-top: -30px;
+    padding: 0;
+    padding-bottom: 20px;
+}
+footer div:first-of-type{
+   padding-left: 150px;
+}
+footer div:last-child{
+    padding-left: 250px;
+}
+footer .main_menu{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin: 0 auto;
+}
+footer .main_menu li{
+    margin: 0;
+    padding: 0;
+    width: 17%;
+    border-color: #5f6973;
+}
+footer .main_menu a{
+    color:#5f6973;
+}
+
+
+
